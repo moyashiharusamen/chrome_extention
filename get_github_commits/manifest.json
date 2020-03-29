@@ -1,0 +1,12 @@
+{
+    "name": "get_gitub_commits",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Get gitub commits",
+    "content_scripts": [{
+        "matches": ["https://*/*"],
+        "js": [
+            "get.js"
+        ]
+    }]
+}
