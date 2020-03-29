@@ -1,0 +1,12 @@
+{
+    "name": "sample",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Sample Chrome Extention",
+    "content_scripts": [{
+        "matches": ["https://github.com/moyashiharusamen/chrome_extention"],
+        "js": [
+            "alert.js"
+        ]
+    }]
+}
